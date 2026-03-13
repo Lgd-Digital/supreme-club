@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 100% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 210 100% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 100% 10%;
+    --primary: 210 100% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 210 100% 25%;
+    --muted: 210 20% 96%;
+    --muted-foreground: 210 10% 45%;
+    --accent: 195 100% 45%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 210 100% 45%;
+    --chart-1: 210 100% 45%;
+    --chart-2: 195 100% 45%;
+    --chart-3: 210 30% 50%;
+    --chart-4: 195 70% 60%;
+    --chart-5: 210 50% 70%;
+    --radius: 0.75rem;
+  }
+  .dark {
+    --background: 210 100% 5%;
+    --foreground: 0 0% 98%;
+    --card: 210 50% 8%;
+    --card-foreground: 0 0% 98%;
+    --popover: 210 50% 8%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 195 100% 50%;
+    --primary-foreground: 210 100% 10%;
+    --secondary: 210 30% 15%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 210 30% 15%;
+    --muted-foreground: 210 10% 65%;
+    --accent: 195 100% 50%;
+    --accent-foreground: 210 100% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 30% 20%;
+    --input: 210 30% 20%;
+    --ring: 195 100% 50%;
+    --chart-1: 210 100% 55%;
+    --chart-2: 195 100% 55%;
+    --chart-3: 210 40% 60%;
+    --chart-4: 195 80% 65%;
+    --chart-5: 210 60% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-xl bg-white/70 dark:bg-navy-950/70 border border-white/20 dark:border-white/10;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-lg bg-white/80 dark:bg-navy-900/50 border border-white/20 dark:border-white/5 shadow-xl;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-navy-700 via-electric-500 to-navy-700 bg-clip-text text-transparent;
+  }
+
+  .bg-gradient-navy {
+    @apply bg-gradient-to-br from-navy-900 via-navy-800 to-navy-950;
+  }
+
+  .bg-gradient-electric {
+    @apply bg-gradient-to-br from-electric-500 via-electric-400 to-navy-600;
+  }
+}
