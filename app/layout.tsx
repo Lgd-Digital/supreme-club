@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://bolt.new/static/og_default.png',
+        url: '/favicon.png',
       },
     ],
   },
