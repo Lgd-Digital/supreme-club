@@ -71,7 +71,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <Card
               key={index}
-              className="glass-card border-2 border-white/10 hover:border-electric-500/30 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+              className="glass-card border-2 border-border dark:border-white/10 hover:border-electric-500/30 transition-all duration-300 hover:scale-105 hover:shadow-2xl"
             >
               <CardContent className="p-6">
                 <div className="flex items-start justify-between mb-4">
@@ -104,7 +104,7 @@ export default function Testimonials() {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="inline-flex items-center space-x-8 glass-card rounded-full px-8 py-4 border-2 border-electric-500/20">
+          <div className="inline-flex items-center space-x-8 glass-card rounded-full px-8 py-4 border-2 border-border dark:border-electric-500/20">
             <div className="flex items-center space-x-2">
               <Star className="w-6 h-6 fill-electric-500 text-electric-500" />
               <span className="text-2xl font-bold">4.9</span>

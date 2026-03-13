@@ -5,6 +5,8 @@ import { Shield, Menu, X, Moon, Sun } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
+import { FaWhatsapp } from 'react-icons/fa';
+import { handleWhatsApp } from './Hero';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -86,9 +88,10 @@ export default function Navbar() {
               </Button>
             )}
             <Button
-              onClick={() => scrollToSection('#cotacao')}
+              onClick={handleWhatsApp}
               className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-semibold px-6 shadow-lg hover:shadow-xl transition-all duration-300"
             >
+              <FaWhatsapp className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
               Fazer Cotação
             </Button>
           </div>

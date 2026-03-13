@@ -2,6 +2,9 @@
 
 import { Shield, Clock, MapPin, Headphones, Car, Award } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { handleWhatsApp } from './Hero';
+import { Button } from '../ui/button';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Benefits() {
   const benefits = [
@@ -58,7 +61,7 @@ export default function Benefits() {
           {benefits.map((benefit, index) => (
             <Card
               key={index}
-              className="glass-card border-2 border-white/10 hover:border-electric-500/30 transition-all duration-300 group hover:scale-105 hover:shadow-2xl"
+              className="glass-card border-2 border-border dark:border-white/10 hover:border-electric-500/30 transition-all duration-300 group hover:scale-105 hover:shadow-2xl"
             >
               <CardContent className="p-8">
                 <div className="relative mb-6">
@@ -98,6 +101,15 @@ export default function Benefits() {
               <div className="text-muted-foreground">Anos de Mercado</div>
             </div>
           </div>
+        </div>
+        <div className="mt-16 text-center">
+          <Button
+              onClick={handleWhatsApp}
+              className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-semibold px-6 shadow-lg hover:shadow-xl transition-all duration-300"
+            >
+              <FaWhatsapp className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+              Fazer Cotação
+            </Button>
         </div>
       </div>
     </section>

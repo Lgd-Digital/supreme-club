@@ -7,6 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function FAQ() {
   const faqs = [
@@ -64,13 +65,13 @@ export default function FAQ() {
           </p>
         </div>
 
-        <div className="glass-card rounded-3xl p-8 border-2 border-white/10">
+        <div className="glass-card rounded-3xl p-8 border-2 border-border dark:border-white/10">
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, index) => (
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="border border-white/10 rounded-xl px-6 hover:border-electric-500/30 transition-all duration-300"
+                className="border border-border dark:border-white/10 rounded-xl px-6 hover:border-electric-500/30 transition-all duration-300"
               >
                 <AccordionTrigger className="text-left hover:no-underline hover:text-electric-500 transition-colors py-5">
                   <span className="font-semibold text-lg pr-4">{faq.question}</span>
@@ -83,7 +84,7 @@ export default function FAQ() {
           </Accordion>
         </div>
 
-        <div className="mt-12 text-center glass-card rounded-2xl p-8 border-2 border-electric-500/20">
+        <div className="mt-12 text-center glass-card rounded-2xl p-8 border-2 border-border dark:border-electric-500/20">
           <h3 className="text-2xl font-bold mb-3">Ainda tem dúvidas?</h3>
           <p className="text-muted-foreground mb-6">
             Nossa equipe está pronta para te ajudar. Entre em contato conosco!
@@ -95,6 +96,7 @@ export default function FAQ() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-semibold transition-all duration-300 hover:shadow-lg"
             >
+              <FaWhatsapp className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
               WhatsApp
             </a>
             <a

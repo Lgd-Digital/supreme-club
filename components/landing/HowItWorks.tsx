@@ -2,6 +2,9 @@
 
 import { Calculator, FileCheck, ShieldCheck, ArrowRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '../ui/button';
+import { FaWhatsapp } from 'react-icons/fa';
+import { handleWhatsApp } from './Hero';
 
 export default function HowItWorks() {
   const steps = [
@@ -48,7 +51,7 @@ export default function HowItWorks() {
         <div className="grid md:grid-cols-3 gap-8 relative">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <Card className="glass-card border-2 border-white/10 hover:border-electric-500/30 transition-all duration-300 h-full group hover:scale-105 hover:shadow-2xl">
+              <Card className="glass-card border-2 border-border dark:border-white/10 hover:border-electric-500/30 transition-all duration-300 h-full group hover:scale-105 hover:shadow-2xl">
                 <CardContent className="p-8">
                   <div className="relative mb-6">
                     <div className={`absolute inset-0 bg-gradient-to-r ${step.color} rounded-2xl blur-xl opacity-0 group-hover:opacity-50 transition-opacity duration-300`}></div>
@@ -81,7 +84,7 @@ export default function HowItWorks() {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="glass-card rounded-2xl p-8 max-w-3xl mx-auto border-2 border-electric-500/20">
+          <div className="glass-card rounded-2xl p-8 max-w-3xl mx-auto border-2 border-border dark:border-electric-500/20">
             <h3 className="text-2xl font-bold mb-4">Pronto para começar?</h3>
             <p className="text-muted-foreground mb-6">
               O processo completo leva menos de 5 minutos e você pode fazer tudo online, sem sair de casa!
@@ -103,6 +106,15 @@ export default function HowItWorks() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="mt-16 text-center">
+          <Button
+          onClick={handleWhatsApp}
+          className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-semibold px-6 shadow-lg hover:shadow-xl transition-all duration-300"
+        >
+          <FaWhatsapp className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+          Fazer Cotação
+        </Button>
         </div>
       </div>
     </section>

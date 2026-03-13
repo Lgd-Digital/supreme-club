@@ -1,6 +1,9 @@
 'use client';
 
 import { CircleCheck as CheckCircle2, Target, Users, TrendingUp } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+import { handleWhatsApp } from './Hero';
+import { Button } from '../ui/button';
 
 export default function About() {
   const values = [
@@ -110,6 +113,13 @@ export default function About() {
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-electric-500/20 rounded-full blur-3xl"></div>
           </div>
         </div>
+        <Button
+          onClick={handleWhatsApp}
+          className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-semibold px-6 shadow-lg hover:shadow-xl transition-all duration-300"
+        >
+          <FaWhatsapp className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+          Fazer Cotação
+        </Button>
       </div>
     </section>
   );

@@ -53,7 +53,7 @@ export default function QuoteForm() {
         </div>
 
         <div className="max-w-2xl mx-auto">
-          <Card className="glass-card border-2 border-white/10 shadow-2xl">
+          <Card className="glass-card border-2 border-border dark:border-white/10 shadow-2xl">
             <CardHeader>
               <CardTitle className="text-2xl">Dados para Cotação</CardTitle>
               <CardDescription>
