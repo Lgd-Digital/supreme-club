@@ -37,22 +37,18 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <div className="inline-block mb-6">
-              <span className="inline-flex items-center px-4 py-2 rounded-full bg-electric-500/10 border border-electric-500/20 text-electric-600 dark:text-electric-400 text-sm font-semibold backdrop-blur-sm">
-                Proteção Veicular Premium
-              </span>
-            </div>
+          
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground dark:text-white leading-tight mb-6">
               Proteção Veicular <br />
               <span className="my-4 bg-gradient-to-r from-electric-500 via-electric-600 to-navy-600 dark:from-electric-400 dark:via-electric-300 dark:to-electric-500 bg-clip-text text-transparent">
-                Inteligente
+                Acessível
               </span>
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground dark:text-gray-300 mb-8 max-w-2xl">
               Tenha tranquilidade total com cobertura completa contra roubo, furto e assistências 24 horas.
-              Proteção nacional com atendimento rápido e eficiente.
+              Proteção nacional com atendimento rápido e prático.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">

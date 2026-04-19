@@ -66,7 +66,7 @@ export default function FinalCTA() {
         </div>
 
         <p className="mt-12 text-muted-foreground dark:text-gray-400 text-sm">
-          Sem burocracia • Sem franquia • Cancelamento livre
+          Sem burocracia • Cancelamento livre
         </p>
       </div>
     </section>

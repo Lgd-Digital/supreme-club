@@ -29,6 +29,7 @@ export default function About() {
     'Atendimento personalizado e humanizado',
     'Parcerias com oficinas credenciadas',
     'Tecnologia de ponta em gestão de sinistros',
+    'Sem consulta ao SPC/Serasa',
   ];
 
   return (
@@ -52,13 +53,13 @@ export default function About() {
             </h2>
 
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              O Supreme Clube de Benefícios nasceu com o propósito de revolucionar o mercado de
+              A Supreme Clube de Benefícios nasceu com o propósito de revolucionar o mercado de
               proteção veicular, oferecendo soluções modernas, acessíveis e totalmente digitais.
             </p>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Com mais de 15 anos de experiência, atendemos milhares de clientes em todo o Brasil,
-              sempre com foco em excelência no atendimento e na proteção do seu patrimônio.
+              Com excelência, atendemos clientes em todo o Brasil, sempre com foco no atendimento e
+              na proteção do seu patrimônio.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -81,23 +82,7 @@ export default function About() {
                     <Target className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">Missão</h3>
-                  <p className="text-sm text-muted-foreground">Proteger seu patrimônio com excelência</p>
-                </div>
-
-                <div className="glass-card rounded-2xl p-8 aspect-square bg-gradient-to-br from-navy-700 to-navy-900 flex items-center justify-center hover:scale-105 transition-transform duration-300">
-                  <div className="text-center">
-                    <div className="text-5xl font-bold text-electric-400 mb-2">15+</div>
-                    <div className="text-white text-sm">Anos de Mercado</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-6 pt-12">
-                <div className="glass-card rounded-2xl p-8 aspect-square bg-gradient-to-br from-electric-500 to-electric-600 flex items-center justify-center hover:scale-105 transition-transform duration-300">
-                  <div className="text-center">
-                    <div className="text-5xl font-bold text-white mb-2">5k+</div>
-                    <div className="text-white text-sm">Clientes Ativos</div>
-                  </div>
+                  <p className="text-sm text-muted-foreground">Proteger seu patrimônio com excelência e compromisso</p>
                 </div>
 
                 <div className="glass-card rounded-2xl p-6 h-48 flex flex-col justify-center hover:scale-105 transition-transform duration-300">
@@ -105,7 +90,30 @@ export default function About() {
                     <TrendingUp className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">Visão</h3>
-                  <p className="text-sm text-muted-foreground">Ser referência nacional</p>
+                  <p className="text-sm text-muted-foreground">Ser referência em proteção veicular no Brasil</p>
+                </div>
+              </div>
+
+              <div className="space-y-6 pt-12">
+                <div className="glass-card rounded-2xl p-8 h-[calc(100%-3rem)] bg-gradient-to-br from-navy-700 to-navy-900 flex flex-col justify-center border border-white/5 hover:scale-105 transition-transform duration-300">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-electric-500 to-navy-600 flex items-center justify-center mb-6">
+                    <Users className="w-6 h-6 text-white" />
+                  </div>
+                  <h3 className="font-bold text-xl text-white mb-4">Valores</h3>
+                  <ul className="space-y-3">
+                    <li className="text-blue-100 flex items-center gap-2">
+                       <span className="w-1.5 h-1.5 rounded-full bg-electric-400"></span>
+                       Transparência
+                    </li>
+                    <li className="text-blue-100 flex items-center gap-2">
+                       <span className="w-1.5 h-1.5 rounded-full bg-electric-400"></span>
+                       Confiança
+                    </li>
+                    <li className="text-blue-100 flex items-center gap-2">
+                       <span className="w-1.5 h-1.5 rounded-full bg-electric-400"></span>
+                       Atendimento Humanizado
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -115,10 +123,11 @@ export default function About() {
         </div>
         <Button
           onClick={handleWhatsApp}
-          className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-semibold px-6 shadow-lg hover:shadow-xl transition-all duration-300"
+          size="lg"
+          className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-bold px-10 py-7 text-lg shadow-xl hover:shadow-2xl transition-all duration-300 group rounded-xl"
         >
-          <FaWhatsapp className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-          Fazer Cotação
+          <FaWhatsapp className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
+          Fazer Minha Cotação
         </Button>
       </div>
     </section>

@@ -161,7 +161,7 @@ export default function QuoteForm() {
           <div className="mt-8 grid grid-cols-3 gap-6">
             <div className="text-center">
               <div className="text-3xl font-bold text-electric-500 mb-1">24h</div>
-              <div className="text-sm text-muted-foreground">Resposta</div>
+              <div className="text-sm text-muted-foreground">Monitoramento</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-electric-500 mb-1">100%</div>

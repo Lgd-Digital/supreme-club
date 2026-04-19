@@ -33,7 +33,7 @@ export default function FAQ() {
     },
     {
       question: 'Como é feito o pagamento?',
-      answer: 'O pagamento é mensal e pode ser feito através de boleto bancário, cartão de crédito ou débito automático. Você escolhe a melhor forma de acordo com sua preferência.',
+      answer: 'O pagamento é mensal e pode ser feito através de boleto bancário. Você escolhe a melhor forma de acordo com sua preferência.',
     },
     {
       question: 'Existe carência para utilizar a proteção?',

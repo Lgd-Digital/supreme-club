@@ -1,6 +1,6 @@
 'use client';
 
-import { Shield, Clock, MapPin, Headphones, Car, Award } from 'lucide-react';
+import { Shield, Clock, MapPin, Headphones, Car, Smartphone, Users, TrendingUp } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { handleWhatsApp } from './Hero';
 import { Button } from '../ui/button';
@@ -11,7 +11,7 @@ export default function Benefits() {
     {
       icon: Shield,
       title: 'Proteção Total',
-      description: 'Cobertura completa contra roubo, furto e danos ao seu veículo com tranquilidade garantida.',
+      description: 'Cobertura completa contra roubo, furto, colisão, danos a terceiros ao seu veículo com tranquilidade garantida.',
     },
     {
       icon: Clock,
@@ -30,13 +30,13 @@ export default function Benefits() {
     },
     {
       icon: Car,
-      title: 'Carro Reserva',
+      title: 'Veículo Reserva',
       description: 'Veículo substituto disponível enquanto o seu está em manutenção ou reparo.',
     },
     {
-      icon: Award,
-      title: 'Sem Franquia',
-      description: 'Economize mais com planos sem franquia e sem custos extras em sinistros.',
+      icon: Smartphone,
+      title: 'Aplicativo Android e IOS',
+      description: 'App completo intuitivo para IOS e Android, com todas as funcionalidades na palma da sua mão',
     },
   ];
 
@@ -82,33 +82,52 @@ export default function Benefits() {
           ))}
         </div>
 
-        <div className="mt-16 glass-card rounded-3xl p-8 md:p-12 border-2 border-electric-500/20">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-electric-500 mb-2">5k+</div>
-              <div className="text-muted-foreground">Clientes Protegidos</div>
+        <div className="mt-24 relative glass-card rounded-[2rem] overflow-hidden py-16 px-8 md:py-24 md:px-12 border-2 border-electric-500/20">
+          <div className="relative z-20 text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4">Nossa História em Números</h2>
+            <div className="w-24 h-1.5 bg-electric-500 mx-auto rounded-full mb-6 shadow-[0_0_15px_rgba(59,130,246,0.3)]" />
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              Conheça o impacto da Supreme Clube através dos nossos resultados e compromisso com cada associado.
+            </p>
+          </div>
+
+          <div className="relative z-20 grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Card 1 */}
+            <div className="group bg-secondary/20 backdrop-blur-xl border border-border dark:border-white/5 rounded-3xl p-10 flex flex-col items-center text-center transition-all duration-500 hover:bg-secondary/30 hover:border-electric-500/30 hover:-translate-y-2">
+              <div className="w-14 h-14 rounded-2xl bg-electric-500/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 border border-electric-500/20">
+                <Users className="w-7 h-7 text-electric-500" />
+              </div>
+              <div className="text-4xl md:text-5xl font-extrabold text-foreground mb-2 tracking-tight">25.000+</div>
+              <div className="text-muted-foreground font-semibold text-lg">Associados Protegidos</div>
             </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-electric-500 mb-2">99%</div>
-              <div className="text-muted-foreground">Satisfação</div>
+
+            {/* Card 2 */}
+            <div className="group bg-secondary/20 backdrop-blur-xl border border-border dark:border-white/5 rounded-3xl p-10 flex flex-col items-center text-center transition-all duration-500 hover:bg-secondary/30 hover:border-electric-500/30 hover:-translate-y-2">
+              <div className="w-14 h-14 rounded-2xl bg-electric-500/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 border border-electric-500/20">
+                <TrendingUp className="w-7 h-7 text-electric-500" />
+              </div>
+              <div className="text-4xl md:text-5xl font-extrabold text-foreground mb-2 tracking-tight">5.000+</div>
+              <div className="text-muted-foreground font-semibold text-lg">Sinistros Atendidos</div>
             </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-electric-500 mb-2">24h</div>
-              <div className="text-muted-foreground">Tempo de Resposta</div>
-            </div>
-            <div>
-              <div className="text-4xl md:text-5xl font-bold text-electric-500 mb-2">15+</div>
-              <div className="text-muted-foreground">Anos de Mercado</div>
+
+            {/* Card 3 */}
+            <div className="group bg-secondary/20 backdrop-blur-xl border border-border dark:border-white/5 rounded-3xl p-10 flex flex-col items-center text-center transition-all duration-500 hover:bg-secondary/30 hover:border-electric-500/30 hover:-translate-y-2">
+              <div className="w-14 h-14 rounded-2xl bg-electric-500/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 border border-electric-500/20">
+                <Headphones className="w-7 h-7 text-electric-500" />
+              </div>
+              <div className="text-4xl md:text-5xl font-extrabold text-foreground mb-2 tracking-tight">24h</div>
+              <div className="text-muted-foreground font-semibold text-lg">Suporte</div>
             </div>
           </div>
         </div>
-        <div className="mt-16 text-center">
+        <div className="mt-20 text-center">
           <Button
               onClick={handleWhatsApp}
-              className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-semibold px-6 shadow-lg hover:shadow-xl transition-all duration-300"
+              size="lg"
+              className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-bold px-12 py-8 text-xl shadow-[0_10px_40px_-10px_rgba(59,130,246,0.5)] hover:shadow-[0_20px_60px_-10px_rgba(59,130,246,0.6)] transition-all duration-500 hover:-translate-y-1 rounded-2xl group"
             >
-              <FaWhatsapp className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-              Fazer Cotação
+              <FaWhatsapp className="mr-3 h-7 w-7 group-hover:scale-110 transition-transform duration-300" />
+              Fazer Minha Cotação Grátis
             </Button>
         </div>
       </div>

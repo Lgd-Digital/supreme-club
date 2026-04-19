@@ -17,7 +17,6 @@ export default function Home() {
       <Benefits />
       <QuoteForm />
       <About />
-      <HowItWorks />
       <Testimonials />
       <FAQ />
       <FinalCTA />
