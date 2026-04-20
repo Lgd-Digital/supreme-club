@@ -2,6 +2,7 @@ import Navbar from '@/components/landing/Navbar';
 import Hero from '@/components/landing/Hero';
 import QuoteForm from '@/components/landing/QuoteForm';
 import Benefits from '@/components/landing/Benefits';
+import Plans from '@/components/landing/Plans';
 import About from '@/components/landing/About';
 import Testimonials from '@/components/landing/Testimonials';
 import HowItWorks from '@/components/landing/HowItWorks';
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Benefits />
+      <Plans />
       <QuoteForm />
       <About />
       <Testimonials />

@@ -77,7 +77,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
-            {mounted && (
+            {/* {mounted && (
               <Button
                 variant="ghost"
                 size="icon"
@@ -86,7 +86,7 @@ export default function Navbar() {
               >
                 {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </Button>
-            )}
+            )} */}
             <Button
               onClick={handleWhatsApp}
               className="bg-gradient-to-r from-electric-500 to-navy-600 hover:from-electric-600 hover:to-navy-700 text-white font-semibold px-6 shadow-lg hover:shadow-xl transition-all duration-300"

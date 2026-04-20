@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Supreme Clube de Benefícios - Proteção Veicular Inteligente',
-  description: 'Proteção veicular completa com assistência 24h, cobertura nacional e planos a partir de R$ 100/mês. Contratação 100% online e sem burocracia.',
+  description: 'Proteção veicular completa com assistência 24h, cobertura nacional e planos. Contratação 100% online e sem burocracia.',
   openGraph: {
     images: [
       {
