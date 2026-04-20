@@ -10,19 +10,26 @@ import { handleWhatsApp } from './Hero';
 const plansData = {
   carros: [
     {
-      name: 'Plano Bronze',
-      icon: '🥉',
-      color: 'from-[#8B4513] to-[#CD7F32]',
-      border: 'border-[#CD7F32]/20',
-      text: 'text-[#CD7F32]',
+      name: 'Plano Prata',
+      icon: '🥈',
+      color: 'from-[#708090] to-[#C0C0C0]',
+      border: 'border-[#C0C0C0]/20',
+      text: 'text-[#C0C0C0]',
       sections: [
         {
           title: 'Coberturas',
-          items: ['Roubo', 'Furto'],
+          items: ['Roubo', 'Furto', 'Colisão', 'Perda total', 'Incendio pós colisão'],
         },
         {
           title: 'Benefícios',
-          items: ['Reboque ilimitado - roubo ou furto', 'Central de Monitoramento'],
+          items: [
+            'Central de Monitoramento',
+            'Reboque Ilimitado (roubo ou furto)',
+            'Terceiros 20 mil',
+            'Coberturas de vidro 50% - Farois, Lanternas e Retrovisores',
+            'Veículo Reserva 07 Dias',
+            'Reboque 300 KM',
+          ],
         },
         {
           title: 'Bônus',
@@ -62,6 +69,29 @@ const plansData = {
       ],
     },
     {
+      name: 'Plano Bronze',
+      icon: '🥉',
+      color: 'from-[#8B4513] to-[#CD7F32]',
+      border: 'border-[#CD7F32]/20',
+      text: 'text-[#CD7F32]',
+      sections: [
+        {
+          title: 'Coberturas',
+          items: ['Roubo', 'Furto'],
+        },
+        {
+          title: 'Benefícios',
+          items: ['Reboque ilimitado - roubo ou furto', 'Central de Monitoramento'],
+        },
+        {
+          title: 'Bônus',
+          items: ['Rastreador', 'Anti-Furto', 'Central 24H', 'Monitoramento em Tempo Real Via App', 'Cerca Virtual'],
+        },
+      ],
+    },
+  ],
+  motos: [
+    {
       name: 'Plano Prata',
       icon: '🥈',
       color: 'from-[#708090] to-[#C0C0C0]',
@@ -75,10 +105,9 @@ const plansData = {
         {
           title: 'Benefícios',
           items: [
-            'Central de Monitoramento',
+            'Central de Atendimento',
             'Reboque Ilimitado (roubo ou furto)',
-            'Terceiros 20 mil',
-            'Coberturas de vidro 50% - Farois, Lanternas e Retrovisores',
+            'Terceiros 10 mil',
             'Veículo Reserva 07 Dias',
             'Reboque 300 KM',
           ],
@@ -86,29 +115,6 @@ const plansData = {
         {
           title: 'Bônus',
           items: ['Rastreador', 'Anti-Furto', 'Central 24H', 'Monitoramento em Tempo Real Via App', 'Cerca Virtual'],
-        },
-      ],
-    },
-  ],
-  motos: [
-    {
-      name: 'Plano Bronze',
-      icon: '🥉',
-      color: 'from-[#8B4513] to-[#CD7F32]',
-      border: 'border-[#CD7F32]/20',
-      text: 'text-[#CD7F32]',
-      sections: [
-        {
-          title: 'Coberturas',
-          items: ['Roubo', 'Furto'],
-        },
-        {
-          title: 'Benefícios',
-          items: ['Reboque ilimitado - roubo ou furto', 'Central de Atendimento'],
-        },
-        {
-          title: 'Bônus',
-          items: ['Rastreador', 'Anti-Furto', 'Central 24H', 'Monitoramento em Tempo Real Via App'],
         },
       ],
     },
@@ -142,29 +148,23 @@ const plansData = {
       ],
     },
     {
-      name: 'Plano Prata',
-      icon: '🥈',
-      color: 'from-[#708090] to-[#C0C0C0]',
-      border: 'border-[#C0C0C0]/20',
-      text: 'text-[#C0C0C0]',
+      name: 'Plano Bronze',
+      icon: '🥉',
+      color: 'from-[#8B4513] to-[#CD7F32]',
+      border: 'border-[#CD7F32]/20',
+      text: 'text-[#CD7F32]',
       sections: [
         {
           title: 'Coberturas',
-          items: ['Roubo', 'Furto', 'Colisão', 'Perda total', 'Incendio pós colisão'],
+          items: ['Roubo', 'Furto'],
         },
         {
           title: 'Benefícios',
-          items: [
-            'Central de Atendimento',
-            'Reboque Ilimitado (roubo ou furto)',
-            'Terceiros 10 mil',
-            'Veículo Reserva 07 Dias',
-            'Reboque 300 KM',
-          ],
+          items: ['Reboque ilimitado - roubo ou furto', 'Central de Atendimento'],
         },
         {
           title: 'Bônus',
-          items: ['Rastreador', 'Anti-Furto', 'Central 24H', 'Monitoramento em Tempo Real Via App', 'Cerca Virtual'],
+          items: ['Rastreador', 'Anti-Furto', 'Central 24H', 'Monitoramento em Tempo Real Via App'],
         },
       ],
     },
