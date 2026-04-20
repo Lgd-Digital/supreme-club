@@ -21,11 +21,22 @@ export default function QuoteForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+
+    const message = `Olá, gostaria de uma cotação!
+*Nome:* ${formData.nome}
+*Telefone:* ${formData.telefone}
+*Email:* ${formData.email}
+*Veículo:* ${formData.marca}
+*Ano:* ${formData.ano}`;
+
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/5585991817786?text=${encodedMessage}`;
+
     setTimeout(() => {
-      alert('Cotação enviada com sucesso! Entraremos em contato em breve.');
+      window.open(whatsappUrl, '_blank');
       setLoading(false);
       setFormData({ nome: '', telefone: '', email: '', marca: '', ano: '' });
-    }, 1500);
+    }, 1000);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -50,14 +50,14 @@ export default function Footer() {
               Brasil.
             </p>
             <div className="flex space-x-4">
-              <a
+              {/* <a
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-electric-500/20 border border-white/10 hover:border-electric-500/50 flex items-center justify-center transition-all duration-300"
               >
                 <Facebook className="w-5 h-5" />
-              </a>
+              </a> */}
               <a
                 href="https://instagram.com"
                 target="_blank"
@@ -66,14 +66,14 @@ export default function Footer() {
               >
                 <Instagram className="w-5 h-5" />
               </a>
-              <a
+              {/* <a
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-electric-500/20 border border-white/10 hover:border-electric-500/50 flex items-center justify-center transition-all duration-300"
               >
                 <Linkedin className="w-5 h-5" />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -121,10 +121,10 @@ export default function Footer() {
                 <div>
                   <div className="text-gray-400">Telefone</div>
                   <a
-                    href="tel:+551140004000"
+                    href="tel:+5585991817786"
                     className="hover:text-electric-400 transition-colors"
                   >
-                    (11) 4000-4000
+                    (85) 99181-7786
                   </a>
                 </div>
               </li>
@@ -157,7 +157,7 @@ export default function Footer() {
               © {new Date().getFullYear()} Supreme Clube de Benefícios. Todos os
               direitos reservados.
             </p>
-            <div className="flex space-x-6 text-sm">
+            {/* <div className="flex space-x-6 text-sm">
               <a
                 href="#"
                 className="text-gray-400 hover:text-electric-400 transition-colors"
@@ -170,7 +170,7 @@ export default function Footer() {
               >
                 Termos de Uso
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

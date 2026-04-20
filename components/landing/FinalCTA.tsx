@@ -29,7 +29,7 @@ export default function FinalCTA() {
 
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground dark:text-white mb-6 leading-tight">
           Proteja Seu Veículo
-          <span className="block mt-2 bg-gradient-to-r from-electric-500 via-electric-600 to-navy-600 dark:from-electric-400 dark:via-electric-300 dark:to-electric-500 bg-clip-text text-transparent">
+          <span className="block mt-2 p-2 bg-gradient-to-r from-electric-500 via-electric-600 to-navy-600 dark:from-electric-400 dark:via-electric-300 dark:to-electric-500 bg-clip-text text-transparent">
             Agora Mesmo
           </span>
         </h2>
@@ -50,11 +50,7 @@ export default function FinalCTA() {
           </Button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <div className="glass-card p-6 rounded-2xl">
-            <div className="text-4xl font-bold text-electric-500 dark:text-electric-400 mb-2">R$ 100</div>
-            <div className="text-foreground dark:text-white text-sm">Planos a partir de</div>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <div className="glass-card p-6 rounded-2xl">
             <div className="text-4xl font-bold text-electric-500 dark:text-electric-400 mb-2">24h</div>
             <div className="text-foreground dark:text-white text-sm">Assistência disponível</div>

@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export const handleWhatsApp = () => {
-  window.open('https://wa.me/5511999999999', '_blank');
+  window.open('https://wa.me/5585991817786', '_blank');
 };
 
 export default function Hero() {

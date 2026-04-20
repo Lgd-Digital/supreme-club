@@ -9,6 +9,7 @@ import HowItWorks from '@/components/landing/HowItWorks';
 import FAQ from '@/components/landing/FAQ';
 import FinalCTA from '@/components/landing/FinalCTA';
 import Footer from '@/components/landing/Footer';
+import WhatsAppFloatingButton from '@/components/landing/WhatsAppFloatingButton';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <FAQ />
       <FinalCTA />
       <Footer />
+      <WhatsAppFloatingButton />
     </main>
   );
 }
