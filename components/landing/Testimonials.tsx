@@ -18,7 +18,7 @@ export default function Testimonials() {
       role: 'Arquiteta',
       initials: 'MS',
       rating: 5,
-      text: 'A melhor decisão que tomei foi contratar o Supreme. O atendimento é impecável e os valores são justos. Me sinto muito mais segura dirigindo pela cidade.',
+      text: 'A melhor decisão que tomei foi contratar a Supreme. O atendimento é impecável e os valores são justos. Me sinto muito mais segura dirigindo pela cidade.',
     },
     {
       name: 'Roberto Oliveira',
@@ -32,14 +32,14 @@ export default function Testimonials() {
       role: 'Médica',
       initials: 'AC',
       rating: 5,
-      text: 'Profissionalismo e eficiência definem o Supreme. Quando meu carro apresentou problemas na estrada, recebi assistência imediata. Equipe nota 10!',
+      text: 'Profissionalismo e eficiência definem a Supreme. Quando meu carro apresentou problemas na estrada, recebi assistência imediata. Equipe nota 10!',
     },
     {
       name: 'Fernando Almeida',
       role: 'Engenheiro',
       initials: 'FA',
       rating: 5,
-      text: 'Depois de comparar várias opções, escolhi o Supreme e não me arrependo. O processo de contratação foi rápido e simples, tudo online.',
+      text: 'Depois de comparar várias opções, escolhi a Supreme e não me arrependo. O processo de contratação foi rápido e simples, tudo online.',
     },
     {
       name: 'Juliana Rodrigues',
@@ -63,7 +63,7 @@ export default function Testimonials() {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Histórias reais de quem confia no Supreme para proteger seu veículo
+            Histórias reais de quem confia na Supreme para proteger seu veículo
           </p>
         </div>
 

@@ -47,7 +47,7 @@ export default function Benefits() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Por Que Escolher o{' '}
+            Por Que Escolher a{' '}
             <span className="bg-gradient-to-r from-electric-500 to-navy-600 bg-clip-text text-transparent">
               Supreme?
             </span>

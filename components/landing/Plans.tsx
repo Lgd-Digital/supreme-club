@@ -179,9 +179,9 @@ export default function Plans() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Escolha o Plano Ideal para a Sua{' '}
+            Escolha o Plano Ideal para o Seu{' '}
             <span className="bg-gradient-to-r from-electric-500 to-navy-600 bg-clip-text text-transparent">
-              Proteção
+              Veículo
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

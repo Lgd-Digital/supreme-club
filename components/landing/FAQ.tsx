@@ -17,7 +17,7 @@ export default function FAQ() {
     },
     {
       question: 'Qual a diferença entre proteção veicular e seguro auto?',
-      answer: 'A principal diferença está na estrutura: enquanto o seguro é regulado pela SUSEP e oferecido por seguradoras, a proteção veicular é baseada em associações. A proteção veicular geralmente tem custos menores, processos mais simples e não possui franquia em muitos planos.',
+      answer: 'A principal diferença está na estrutura: enquanto o seguro é regulado pela SUSEP e oferecido por seguradoras, a proteção veicular é baseada em associações. A proteção veicular geralmente tem custos menores, processos mais simples.',
     },
     {
       question: 'Como funciona o atendimento em caso de sinistro?',

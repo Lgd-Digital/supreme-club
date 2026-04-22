@@ -41,7 +41,7 @@ export default function About() {
           <div>
             <div className="inline-block mb-6">
               <span className="inline-flex items-center px-4 py-2 rounded-full bg-electric-500/10 border border-electric-500/20 text-electric-500 text-sm font-semibold">
-                Sobre o Supreme
+                Sobre a Supreme
               </span>
             </div>
 
