@@ -17,7 +17,7 @@ export default function FAQ() {
     },
     {
       question: 'Qual a diferença entre proteção veicular e seguro auto?',
-      answer: 'A principal diferença está na estrutura: enquanto o seguro é regulado pela SUSEP e oferecido por seguradoras, a proteção veicular é baseada em associações. A proteção veicular geralmente tem custos menores, processos mais simples.',
+      answer: 'A principal diferença está na estrutura: enquanto o seguro é regulado pela SUSEP e oferecido por seguradoras, a proteção veicular é baseada em associações. A proteção veicular geralmente tem custos menores, processos mais simples',
     },
     {
       question: 'Como funciona o atendimento em caso de sinistro?',
@@ -37,7 +37,7 @@ export default function FAQ() {
     },
     {
       question: 'Existe carência para utilizar a proteção?',
-      answer: 'Para a maioria das coberturas, há uma carência de 30 dias. Em casos de colisão, a carência é de 90 dias. Para assistência 24h e guincho, o serviço está disponível imediatamente após a contratação.',
+      answer: 'A proteção entra em vigor entre 24 e 48 horas após a aprovação da vistoria, período necessário para a ativação completa dos serviços.',
     },
     {
       question: 'O que está incluído na assistência 24h?',

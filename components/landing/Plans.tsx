@@ -105,7 +105,7 @@ const plansData = {
         {
           title: 'Benefícios',
           items: [
-            'Central de Atendimento',
+            'Central de Monitoramento',
             'Reboque Ilimitado (roubo ou furto)',
             'Terceiros 10 mil',
             'Veículo Reserva 07 Dias',
@@ -133,7 +133,7 @@ const plansData = {
         {
           title: 'Benefícios',
           items: [
-            'Central de Atendimento',
+            'Central de Monitoramento',
             'Reboque Ilimitado (roubo ou furto)',
             'Terceiros 15 mil',
             'Veículo Reserva 15 Dias',
@@ -160,11 +160,11 @@ const plansData = {
         },
         {
           title: 'Benefícios',
-          items: ['Reboque ilimitado - roubo ou furto', 'Central de Atendimento'],
+          items: ['Reboque ilimitado - roubo ou furto', 'Central de Monitoramento'],
         },
         {
           title: 'Bônus',
-          items: ['Rastreador', 'Anti-Furto', 'Central 24H', 'Monitoramento em Tempo Real Via App'],
+          items: ['Rastreador', 'Anti-Furto', 'Central 24H', 'Monitoramento em Tempo Real Via App', 'Cerca Virtual'],
         },
       ],
     },
