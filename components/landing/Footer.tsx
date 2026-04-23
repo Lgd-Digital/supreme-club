@@ -59,7 +59,7 @@ export default function Footer() {
                 <Facebook className="w-5 h-5" />
               </a> */}
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/supreme.protecao"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-electric-500/20 border border-white/10 hover:border-electric-500/50 flex items-center justify-center transition-all duration-300"
@@ -144,7 +144,8 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-electric-400 flex-shrink-0 mt-1" />
                 <div>
                   <div className="text-gray-400">Endereço</div>
-                  <div>São Paulo, SP - Brasil</div>
+                  <div>Rua José Hipólito 550 sala 41</div>
+                  <div>Fortaleza - CE</div>
                 </div>
               </li>
             </ul>

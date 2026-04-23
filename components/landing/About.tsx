@@ -10,17 +10,17 @@ export default function About() {
     {
       icon: Target,
       title: 'Missão',
-      description: 'Proteger seu patrimônio com excelência e compromisso',
+      description: 'Cuidar do que move a vida das pessoas, oferecendo proteção veicular justa, acessível e sem barreiras, para que cada associado siga seu caminho com mais segurança e liberdade.',
     },
     {
       icon: Users,
       title: 'Valores',
-      description: 'Transparência, confiança e atendimento humanizado',
+      description: 'Pessoas em primeiro lugar, União e força coletiva, Empatia com o associado, Compromisso real, Transparência sempre, Determinação em servir e Evolução contínua.',
     },
     {
       icon: TrendingUp,
       title: 'Visão',
-      description: 'Ser referência em proteção veicular no Brasil',
+      description: 'Ser a marca que devolve a liberdade de dirigir sem medo, tornando a proteção veicular simples, inclusiva e confiável para todos.',
     },
   ];
 
@@ -82,7 +82,7 @@ export default function About() {
                     <Target className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">Missão</h3>
-                  <p className="text-sm text-muted-foreground">Proteger seu patrimônio com excelência e compromisso</p>
+                  <p className="text-sm text-muted-foreground">Cuidar do que move a vida das pessoas, oferecendo proteção veicular justa, acessível e sem barreiras.</p>
                 </div>
 
                 <div className="glass-card rounded-2xl p-6 h-48 flex flex-col justify-center hover:scale-105 transition-transform duration-300">
@@ -90,7 +90,7 @@ export default function About() {
                     <TrendingUp className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-lg mb-2">Visão</h3>
-                  <p className="text-sm text-muted-foreground">Ser referência em proteção veicular no Brasil</p>
+                  <p className="text-sm text-muted-foreground">Ser a marca que devolve a liberdade de dirigir sem medo, tornando a proteção simples e inclusiva.</p>
                 </div>
               </div>
 
@@ -101,18 +101,20 @@ export default function About() {
                   </div>
                   <h3 className="font-bold text-xl text-white mb-4">Valores</h3>
                   <ul className="space-y-3">
-                    <li className="text-blue-100 flex items-center gap-2">
-                       <span className="w-1.5 h-1.5 rounded-full bg-electric-400"></span>
-                       Transparência
-                    </li>
-                    <li className="text-blue-100 flex items-center gap-2">
-                       <span className="w-1.5 h-1.5 rounded-full bg-electric-400"></span>
-                       Confiança
-                    </li>
-                    <li className="text-blue-100 flex items-center gap-2">
-                       <span className="w-1.5 h-1.5 rounded-full bg-electric-400"></span>
-                       Atendimento Humanizado
-                    </li>
+                    {[
+                      'Pessoas em primeiro lugar',
+                      'União e força coletiva',
+                      'Empatia com o associado',
+                      'Compromisso real',
+                      'Transparência sempre',
+                      'Determinação em servir',
+                      'Evolução contínua',
+                    ].map((valor) => (
+                      <li key={valor} className="text-blue-100 flex items-center gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-electric-400"></span>
+                        {valor}
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </div>
