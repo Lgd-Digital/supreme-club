@@ -37,7 +37,7 @@ export default function Footer() {
               onClick={() => scrollToSection("#home")}
             >
               <Image
-                src="/logo-supreme.png"
+                src="/new-logo.png"
                 alt="Supreme Clube de Benefícios"
                 width={140}
                 height={40}

@@ -54,7 +54,7 @@ export default function Navbar() {
             onClick={() => scrollToSection("#home")}
           >
             <Image
-              src="/logo-supreme.png"
+              src="/new-logo.png"
               alt="Supreme Clube de Benefícios"
               width={140}
               height={40}
@@ -97,7 +97,7 @@ export default function Navbar() {
           </div>
 
           <div className="md:hidden flex items-center space-x-2">
-            {mounted && (
+            {/* {mounted && (
               <Button
                 variant="ghost"
                 size="icon"
@@ -106,7 +106,7 @@ export default function Navbar() {
               >
                 {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </Button>
-            )}
+            )} */}
             <Button
               variant="ghost"
               size="icon"
