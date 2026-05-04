@@ -128,7 +128,7 @@ const plansData = {
       sections: [
         {
           title: 'Coberturas',
-          items: ['Roubo', 'Furto', 'Colisão', 'Perda total', 'Incendio pós colisão'],
+          items: ['Roubo', 'Furto', 'Colisão', 'Perda Total', 'Incendio Pós Colisão'],
         },
         {
           title: 'Benefícios',
