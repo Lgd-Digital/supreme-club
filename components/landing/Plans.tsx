@@ -160,7 +160,7 @@ const plansData = {
         },
         {
           title: 'Benefícios',
-          items: ['Reboque Ilimitado - (roubo ou furto)', 'Central de Monitoramento'],
+          items: ['Reboque Ilimitado (roubo ou furto)', 'Central de Monitoramento'],
         },
         {
           title: 'Bônus',
