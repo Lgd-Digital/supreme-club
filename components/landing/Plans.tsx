@@ -18,7 +18,7 @@ const plansData = {
       sections: [
         {
           title: 'Coberturas',
-          items: ['Roubo', 'Furto', 'Colisão', 'Perda total', 'Incendio pós colisão'],
+          items: ['Roubo', 'Furto', 'Colisão', 'Perda Total', 'Incendio Pós Colisão'],
         },
         {
           title: 'Benefícios',
@@ -26,7 +26,7 @@ const plansData = {
             'Central de Monitoramento',
             'Reboque Ilimitado (roubo ou furto)',
             'Terceiros 20 mil',
-            'Coberturas de vidro 50% - Farois, Lanternas e Retrovisores',
+            'Coberturas de Vidro 50% - Farois, Lanternas e Retrovisores',
             'Veículo Reserva 07 Dias',
             'Reboque 300 KM',
           ],
@@ -47,7 +47,7 @@ const plansData = {
       sections: [
         {
           title: 'Coberturas',
-          items: ['Roubo', 'Furto', 'Colisão', 'Perda total', 'Incendio pós colisão'],
+          items: ['Roubo', 'Furto', 'Colisão', 'Perda Total', 'Incendio Pós Colisão'],
         },
         {
           title: 'Benefícios',
@@ -55,7 +55,7 @@ const plansData = {
             'Central de Monitoramento',
             'Reboque Ilimitado (roubo ou furto)',
             'Terceiros 30 mil',
-            'Coberturas de vidro 70% - Farois, Lanternas e Retrovisores',
+            'Coberturas de Vidro 70% - Farois, Lanternas e Retrovisores',
             'Chaveiro - 3x ao ano',
             'Veículo Reserva 15 Dias',
             'Taxi/uber (roubo ou furto)',
@@ -81,7 +81,7 @@ const plansData = {
         },
         {
           title: 'Benefícios',
-          items: ['Reboque ilimitado - roubo ou furto', 'Central de Monitoramento'],
+          items: ['Reboque Ilimitado - (roubo ou furto)', 'Central de Monitoramento'],
         },
         {
           title: 'Bônus',
@@ -100,13 +100,13 @@ const plansData = {
       sections: [
         {
           title: 'Coberturas',
-          items: ['Roubo', 'Furto', 'Colisão', 'Perda total', 'Incendio pós colisão'],
+          items: ['Roubo', 'Furto', 'Colisão', 'Perda Total', 'Incendio Pós Colisão'],
         },
         {
           title: 'Benefícios',
           items: [
             'Central de Monitoramento',
-            'Reboque Ilimitado (roubo ou furto)',
+            'Reboque Ilimitado - (roubo ou furto)',
             'Terceiros 10 mil',
             'Veículo Reserva 07 Dias',
             'Reboque 300 KM',
@@ -137,7 +137,7 @@ const plansData = {
             'Reboque Ilimitado (roubo ou furto)',
             'Terceiros 15 mil',
             'Veículo Reserva 15 Dias',
-            'Taxi/uber (roubo ou furto)',
+            'Taxi/Uber - (roubo ou furto)',
             'Reboque 600 KM',
           ],
         },
@@ -160,7 +160,7 @@ const plansData = {
         },
         {
           title: 'Benefícios',
-          items: ['Reboque ilimitado - roubo ou furto', 'Central de Monitoramento'],
+          items: ['Reboque Ilimitado - (roubo ou furto)', 'Central de Monitoramento'],
         },
         {
           title: 'Bônus',

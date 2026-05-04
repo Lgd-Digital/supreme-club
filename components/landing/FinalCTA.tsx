@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowRight, Shield } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function FinalCTA() {
@@ -23,8 +23,8 @@ export default function FinalCTA() {
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iIzAwYTBlNiIgc3Ryb2tlLXdpZHRoPSIuNSIgb3BhY2l0eT0iLjEiLz48L2c+PC9zdmc+')] opacity-10"></div>
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="inline-flex items-center justify-center w-20 h-20 rounded-3xl bg-gradient-to-br from-electric-500 to-navy-600 mb-8 animate-pulse">
-          <Shield className="w-10 h-10 text-white" />
+        <div className="inline-flex items-center justify-center mb-8 animate-pulse">
+          <img src="/new-logo.png" alt="Supreme Club - Proteção Veicular" className="w-24 h-24 object-contain" />
         </div>
 
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground dark:text-white mb-6 leading-tight">
