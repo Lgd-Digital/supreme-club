@@ -8,42 +8,36 @@ export default function Testimonials() {
   const testimonials = [
     {
       name: 'Carlos Eduardo Silva',
-      role: 'Empresário',
       initials: 'CE',
       rating: 5,
       text: 'Excelente serviço! Quando precisei acionar a proteção por roubo, fui atendido rapidamente e todo o processo foi muito transparente. Recomendo de olhos fechados!',
     },
     {
       name: 'Marina Santos',
-      role: 'Arquiteta',
       initials: 'MS',
       rating: 5,
       text: 'A melhor decisão que tomei foi contratar a Supreme. O atendimento é impecável e os valores são justos. Me sinto muito mais segura dirigindo pela cidade.',
     },
     {
       name: 'Roberto Oliveira',
-      role: 'Corretor',
       initials: 'RO',
       rating: 5,
       text: 'Proteção veicular de qualidade com preço acessível. Já indiquei para vários amigos e todos ficaram satisfeitos. A assistência 24h funciona de verdade!',
     },
     {
       name: 'Ana Paula Costa',
-      role: 'Médica',
       initials: 'AC',
       rating: 5,
       text: 'Profissionalismo e eficiência definem a Supreme. Quando meu carro apresentou problemas na estrada, recebi assistência imediata. Equipe nota 10!',
     },
     {
       name: 'Fernando Almeida',
-      role: 'Engenheiro',
       initials: 'FA',
       rating: 5,
       text: 'Depois de comparar várias opções, escolhi a Supreme e não me arrependo. O processo de contratação foi rápido e simples, tudo online.',
     },
     {
       name: 'Juliana Rodrigues',
-      role: 'Designer',
       initials: 'JR',
       rating: 5,
       text: 'Adorei a transparência e o suporte oferecido. Sempre que tenho dúvidas, sou atendida rapidamente. Vale muito a pena pela tranquilidade que proporciona!',
@@ -83,7 +77,6 @@ export default function Testimonials() {
                     </Avatar>
                     <div>
                       <div className="font-bold text-foreground">{testimonial.name}</div>
-                      <div className="text-sm text-muted-foreground">{testimonial.role}</div>
                     </div>
                   </div>
                   <Quote className="w-8 h-8 text-electric-500/30" />

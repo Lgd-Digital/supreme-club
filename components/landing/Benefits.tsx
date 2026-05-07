@@ -97,8 +97,8 @@ export default function Benefits() {
               <div className="w-14 h-14 rounded-2xl bg-electric-500/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 border border-electric-500/20">
                 <Users className="w-7 h-7 text-electric-500" />
               </div>
-              <div className="text-4xl md:text-5xl font-extrabold text-foreground mb-2 tracking-tight">25.000+</div>
-              <div className="text-muted-foreground font-semibold text-lg">Associados Protegidos</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-foreground mb-2 tracking-tight">Inúmeros</div>
+              <div className="text-muted-foreground font-semibold text-lg">Clientes Atendidos</div>
             </div>
 
             {/* Card 2 */}
@@ -106,8 +106,8 @@ export default function Benefits() {
               <div className="w-14 h-14 rounded-2xl bg-electric-500/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 border border-electric-500/20">
                 <TrendingUp className="w-7 h-7 text-electric-500" />
               </div>
-              <div className="text-4xl md:text-5xl font-extrabold text-foreground mb-2 tracking-tight">5.000+</div>
-              <div className="text-muted-foreground font-semibold text-lg">Sinistros Atendidos</div>
+              <div className="text-4xl md:text-5xl font-extrabold text-foreground mb-2 tracking-tight">Qualidade</div>
+              <div className="text-muted-foreground font-semibold text-lg">Nos sinistros atendidos</div>
             </div>
 
             {/* Card 3 */}
